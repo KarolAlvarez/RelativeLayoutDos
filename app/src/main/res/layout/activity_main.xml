@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,49 +10,46 @@
         android:id="@+id/center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/center"
         android:layout_centerInParent="true"
+        android:layout_margin="5dp"
         android:background="@color/colorAccent"
         android:padding="10dp"
-        android:layout_margin="5dp"
-        />
+        android:text="@string/center" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Uno"
         android:layout_above="@+id/center"
         android:layout_alignLeft="@+id/center"
         android:background="@color/colorAccent"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:text="@string/Uno" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dos"
-        android:background="@color/colorAccent"
-        android:padding="10dp"
+        android:layout_centerInParent="true"
         android:layout_toLeftOf="@id/center"
-        android:layout_centerInParent="true"
-         />
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="@string/dos" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tres"
-        android:background="@color/colorAccent"
-        android:padding="10dp"
+        android:layout_centerInParent="true"
         android:layout_toRightOf="@id/center"
-        android:layout_centerInParent="true"
-        />
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="@string/tres" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cuatro"
+        android:layout_alignLeft="@id/center"
+        android:layout_below="@id/center"
         android:background="@color/colorAccent"
         android:padding="10dp"
-        android:layout_below="@id/center"
-        android:layout_alignLeft="@id/center"
-        />
+        android:text="@string/cuatro" />
 
 </RelativeLayout>
